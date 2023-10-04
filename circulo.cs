@@ -7,6 +7,9 @@ public class Circulo : Figura
    public Circulo(double radio){
     _radio=radio;
    }
+   public void SetRadio(double radio){
+    _radio=radio;
+   }
     public override double GetArea()
     {
         return Math.PI*(Math.Pow(_radio,2));

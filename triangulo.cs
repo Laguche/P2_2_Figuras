@@ -8,6 +8,9 @@ public class TrianguloEquilatero : Figura
   public TrianguloEquilatero(double lado){
     _lado=lado;
   }
+  public void SetLado(double lado){
+    _lado=lado;
+  }
     public override double GetArea()
     {
         return Math.Sqrt(3)*_lado*_lado/4;

@@ -24,8 +24,21 @@ class Program
         // Mostrar información
         System.Console.WriteLine(trianguloEquilatero);
         // Creo instancia de la figura triangulo y calculo su area
-        System.Console.WriteLine("El area del circulo es de "+trianguloEquilatero.GetArea());
+        System.Console.WriteLine("El area del triangulo es de "+trianguloEquilatero.GetArea());
 
+        //Ahora modificaremos los valores de los elementos en triangulo
+        rectangulo.SetDimensiones(5,5);
+        System.Console.WriteLine(rectangulo);
+        //Ahora modificaremos los valores de los elementos en circulo
+        circulo.SetRadio(5);
+        System.Console.WriteLine(circulo.ToString());
+        //Ahora modificaremos los valores de los elementos en triangulo
+        trianguloEquilatero.SetLado(3);
+        System.Console.WriteLine(trianguloEquilatero.ToString());
+        
+
+
+        
 
 
 

@@ -11,6 +11,12 @@ public class Rectangulo : Figura
         _altura=altura;
         _base=bases;
    }
+   public void SetDimensiones(double altura, double bases)
+    {
+        _altura = altura;
+        _base = bases;
+    }
+   
     public override double GetArea()
     {
         return _altura*_base;
