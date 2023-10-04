@@ -35,7 +35,14 @@ class Program
         //Ahora modificaremos los valores de los elementos en triangulo
         trianguloEquilatero.SetLado(3);
         System.Console.WriteLine(trianguloEquilatero.ToString());
-        
+         List<Figura> lista_figuras = new List<Figura>();
+         lista_figuras.Add(new Rectangulo(20,20));
+         lista_figuras.Add(new Circulo(20));
+         lista_figuras.Add(new TrianguloEquilatero(20));
+         foreach (Figura ev in lista_figuras)
+            {
+                Console.WriteLine(ev);
+            }
 
 
         
