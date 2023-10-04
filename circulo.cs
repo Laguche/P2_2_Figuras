@@ -1,29 +1,19 @@
+using System.Drawing;
+namespace git;
 public class Circulo : Figura
 {
-    private double radio;
+   private double _radio;
 
-    public Circulo(Color color, double radio) : base(color)
-    {
-        this.radio = radio;
-    }
-
-    public double GetRadio()
-    {
-        return radio;
-    }
-
-    public void SetRadio(double radio)
-    {
-        this.radio = radio;
-    }
-
+   public Circulo(double radio){
+    _radio=radio;
+   }
     public override double GetArea()
     {
-        return Math.PI * radio * radio;
+        return Math.PI*(Math.Pow(_radio,2));
     }
 
     public override string ToString()
     {
-        return $"Círculo de color {GetColor()}, radio: {radio}, área: {GetArea()}";
+        return $"El circulo tiene de radio: {_radio}";
     }
 }

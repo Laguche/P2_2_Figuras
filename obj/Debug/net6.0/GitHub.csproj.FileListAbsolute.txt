@@ -1,0 +1,15 @@
+C:\Users\legol\Desktop\GitHub\bin\Debug\net6.0\GitHub.exe
+C:\Users\legol\Desktop\GitHub\bin\Debug\net6.0\GitHub.deps.json
+C:\Users\legol\Desktop\GitHub\bin\Debug\net6.0\GitHub.runtimeconfig.json
+C:\Users\legol\Desktop\GitHub\bin\Debug\net6.0\GitHub.dll
+C:\Users\legol\Desktop\GitHub\bin\Debug\net6.0\GitHub.pdb
+C:\Users\legol\Desktop\GitHub\obj\Debug\net6.0\GitHub.csproj.AssemblyReference.cache
+C:\Users\legol\Desktop\GitHub\obj\Debug\net6.0\GitHub.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\legol\Desktop\GitHub\obj\Debug\net6.0\GitHub.AssemblyInfoInputs.cache
+C:\Users\legol\Desktop\GitHub\obj\Debug\net6.0\GitHub.AssemblyInfo.cs
+C:\Users\legol\Desktop\GitHub\obj\Debug\net6.0\GitHub.csproj.CoreCompileInputs.cache
+C:\Users\legol\Desktop\GitHub\obj\Debug\net6.0\GitHub.dll
+C:\Users\legol\Desktop\GitHub\obj\Debug\net6.0\refint\GitHub.dll
+C:\Users\legol\Desktop\GitHub\obj\Debug\net6.0\GitHub.pdb
+C:\Users\legol\Desktop\GitHub\obj\Debug\net6.0\GitHub.genruntimeconfig.cache
+C:\Users\legol\Desktop\GitHub\obj\Debug\net6.0\ref\GitHub.dll

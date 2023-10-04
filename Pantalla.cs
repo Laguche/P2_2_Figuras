@@ -1,0 +1,36 @@
+using System.Drawing;
+namespace git;
+
+
+class Program
+{
+    static void Main()
+    {
+        
+        // Creo instancia de la figura rectangulo y calculo su area
+        Rectangulo rectangulo = new Rectangulo(10,10);
+        // Mostrar información 
+        Console.WriteLine(rectangulo.ToString());
+        //Calculamos el area
+        System.Console.WriteLine("El area del rectangulo es de "+rectangulo.GetArea());
+        // Creo instancia de la figura circulo y calculo su area
+        Circulo circulo = new Circulo(10);
+        // Mostrar información 
+        System.Console.WriteLine(circulo.ToString());
+        //Calculamos el area
+        System.Console.WriteLine("El area del circulo es de "+circulo.GetArea());
+        // Creo instancia de la figura triangulo y calculo su area
+        TrianguloEquilatero trianguloEquilatero = new TrianguloEquilatero(6);
+        // Mostrar información
+        System.Console.WriteLine(trianguloEquilatero);
+        // Creo instancia de la figura triangulo y calculo su area
+        System.Console.WriteLine("El area del circulo es de "+trianguloEquilatero.GetArea());
+
+
+
+
+
+        Console.ReadKey(); // Espera a que el usuario presione una tecla antes de salir
+    }
+}
+
