@@ -39,18 +39,15 @@ class Program
          lista_figuras.Add(new Rectangulo(20,20));
          lista_figuras.Add(new Circulo(20));
          lista_figuras.Add(new TrianguloEquilatero(20));
+         double areatotal=0;
          foreach (Figura ev in lista_figuras)
             {
                 Console.WriteLine(ev);
+                areatotal=ev.GetArea();
+
             }
-
-
-        
-
-
-
-
-        Console.ReadKey(); // Espera a que el usuario presione una tecla antes de salir
+            System.Console.WriteLine("El area total es de: "+areatotal);
+            
     }
 }
 
