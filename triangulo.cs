@@ -6,13 +6,15 @@ public class TrianguloEquilatero : Figura
   private double _lado;
   
 
-  public TrianguloEquilatero(double lado){
+  public TrianguloEquilatero(double lado,Color _color){
     _lado=lado;
+    Color=_color;
   }
   
   public void SetLado(double lado){
     _lado=lado;
   }
+  
     
     public override double GetArea()
     {

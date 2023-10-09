@@ -7,15 +7,20 @@ public class Rectangulo : Figura
 
     
 
-    public Rectangulo(double altura,double bases){
-        _altura=altura;
-        _base=bases;
-   }
+    public Rectangulo(double altura, double bases,Color _color)
+    {
+        _altura = altura;
+        _base = bases;
+        Color=_color;
+        
+    }
    public void SetDimensiones(double altura, double bases)
     {
         _altura = altura;
         _base = bases;
+        
     }
+   
    
     public override double GetArea()
     {
