@@ -12,19 +12,19 @@ class Program
         // Mostrar información 
         Console.WriteLine(rectangulo.ToString());
         //Calculamos el area
-        System.Console.WriteLine("El area del rectangulo es de "+rectangulo.GetArea());
+        System.Console.WriteLine("El area del rectangulo es de "+rectangulo.GetArea().ToString("N2"));
         // Creo instancia de la figura circulo y calculo su area
         Circulo circulo = new Circulo(10,Color.AliceBlue);
         // Mostrar información 
         System.Console.WriteLine(circulo.ToString());
         //Calculamos el area
-        System.Console.WriteLine("El area del circulo es de "+circulo.GetArea());
+        System.Console.WriteLine("El area del circulo es de "+circulo.GetArea().ToString("N2"));
         // Creo instancia de la figura triangulo y calculo su area
         TrianguloEquilatero trianguloEquilatero = new TrianguloEquilatero(6,Color.AliceBlue);
         // Mostrar información
         System.Console.WriteLine(trianguloEquilatero);
         // Creo instancia de la figura triangulo y calculo su area
-        System.Console.WriteLine("El area del triangulo es de "+trianguloEquilatero.GetArea());
+        System.Console.WriteLine("El area del triangulo es de "+trianguloEquilatero.GetArea().ToString("N2"));
 
         //Ahora modificaremos los valores de los elementos en triangulo
         rectangulo.SetDimensiones(5,5);
@@ -46,7 +46,7 @@ class Program
                 areatotal=ev.GetArea();
 
             }
-            System.Console.WriteLine("El area total es de: "+areatotal);
+            System.Console.WriteLine("El area total es de: "+areatotal.ToString("N2"));
 
             
     }
