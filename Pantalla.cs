@@ -47,6 +47,10 @@ class Program
 
             }
             System.Console.WriteLine("El area total es de: "+areatotal);
+        Circulo circulo2 = new Circulo(10);
+        circulo2.Color= Color.Azure;
+        System.Console.WriteLine(circulo2.Color);
+
             
     }
 }
